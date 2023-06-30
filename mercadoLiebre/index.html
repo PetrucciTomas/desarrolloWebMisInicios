@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mercado Liebre</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://fonts.google.com/">
+  <link rel="stylesheet" href="https://boxicons.com/">
+  <link rel="icon" sizes="64x64" href="./img/favicon.png">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+
+
+<body>
+
+  <header class="Header">
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+    </style>
+
+    <!-- Seccion 1 -->
+    <section class="sec1 SEC">
+      <figure class="iMg .col-xs-5"> <img src="./img/mercado-liebre.png" alt="" width="10%"> </figure>
+      <article class="transicion art1 .col-xs-5"> <a href="https://www.w3schools.com/default.asp"> Todas las opiniones
+          en un solo lugar <!-- Icono 1 --> <i class='bx bx-message-rounded-dots'></i></a> </article>
+
+    </section>
+
+
+
+    <!-- Seccion 2 -->
+    <section class="sec2 SEC">
+      <article class="transicion art2"> <a href="https://htmlcolorcodes.com/es/"> Todos los productos <!-- Icono 2 -->
+          <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+          <i class='bx bxs-store'></i>
+        </a></article>
+
+      <article class="transicion art3"> <a href="https://www.google.com/?hl=es"> Creá tu cuenta <!-- Icono 3 --> <i
+            class='bx bx-user-circle'></i></a></article>
+
+      <button class="btn btn-success BTN" data-bs-toggle="modal" data-bs-target="#dialogo1"> Ingresá </button>
+
+      <div class="modal fade BTN" id="dialogo1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <a href="http://127.0.0.1:5500/registro.html"> Ingresá <!-- Icono 4 --> <i
+                class='bx bx-caret-right'></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="dialogo1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- cabecera del diálogo -->
+            <div class="modal-header">
+              <h4 class="modal-title">Título del diálogo</h4>
+              <button type="button" class="close" data-dismiss="modal">X</button>
+            </div>
+            <!-- cuerpo del diálogo -->
+            <div class="modal-body">
+              <p>Contenido del diálogo.</p>
+            </div>
+            <!-- pie del diálogo -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+  </header>
+
+  <!-- 1er Banner -->
+  <figure class="figban"><img class="img1" src="./img/banner1.jpg" alt=""></figure>
+
+
+
+  <main class="Main .container">
+    <!-- Seccion 1-->
+    <section class=".col-xs-5">
+      <article class="art1-1"> ¡Disfruta de nuestras ofertas!</article>
+
+      <figure class="figure fig1"><img class="img img1-1" src="./img/productos/img-cafetera-moulinex.jpg" alt="">
+        <h3 class="h3 transicion">Cafetera Moulinex <i class='bx bx-pointer'></i></h3>
+      </figure>
+
+      <figure class="figure fig2"><img class="img img1-2" src="./img/productos/img-macbook-pro-2019.jpg" alt="">
+        <h3 class="h3 transicion">Macbook Pro 2019<i class='bx bx-pointer'></i></h3>
+      </figure>
+
+      <figure class="figure fig3"><img class="img img1-3" src="./img/productos/img-tv-samsung-smart.jpg" alt="">
+        <h3 class="h3 transicion">TV LG 40 Pulgadas<i class='bx bx-pointer'></i></h3>
+      </figure>
+
+      <figure class="figure fig4"><img class="img img1-4" src="./img/productos/img-samsung-galaxy-s10.jpg" alt="">
+        <h3 class="h3 transicion">Samsung Galaxy<i class='bx bx-pointer'></i></h3>
+      </figure>
+    </section>
+
+    <!-- Seccion 2-->
+    <section class=".col-xs-5">
+      <article class="ARTICULOsec2"> Productos Destacados</article>
+      <figure class="FIGURE FIG1"><img class="IMG IMG1" src="./img/productos/img-samsung-galaxy-s10.jpg" alt="">
+        <h1 class="h1 transicion ">Smartphone Samsung Galaxy</h1>
+      </figure>
+
+      <figure class="FIGURE FIG2"><img class="IMG IMG2" src="./img/productos/img-tv-samsung-smart.jpg" alt="">
+        <h1 class="h1 transicion hhh">TV Smart 40" Samsung</h1>
+      </figure>
+    </section>
+
+    <!-- Seccion 3-->
+    <section class="SEC3 .col-xs-5">
+      <div id="carouselExampleControls" class="carousel slide crsl" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/productos/img-cafetera-moulinex.jpg" class="d-block w-10 IMGSCRSL" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/productos/img-macbook-pro-2019.jpg" class="d-block w-10 IMGSCRSL" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/productos/img-tv-samsung-smart.jpg" class="d-block w-10 IMGSCRSL" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </main>
+
+
+
+
+  <footer class=".container">
+
+    <section class=".row">
+
+      <article class=".col ArT1">
+        <h1>Seguinos</h1>
+        <p>Facebook <i class='bx bxl-facebook-square'></i></p>
+        <p>Instagram <i class='bx bxl-instagram'></i></p>
+        <p>Linkedin <i class='bx bxl-linkedin-square'></i></p>
+        <p>Youtube <i class='bx bxl-youtube'></i></p>
+      </article>
+
+      <article class=".col ArT2">
+        <h1>Otros Servicios</h1>
+        <p>MercadoLiebre Pago</p>
+        <p>MercadoLiebre Shops</p>
+        <p>Liebre Envios</p>
+      </article>
+
+      <article class=".col ArT3">
+        <h1>Trabaja con nosotros</h1>
+        <form action="">
+          <label class="label" for="Email">Ingresá tu email</label>
+          <input type="text" id="Email">
+          <label for="Enviar"></label>
+          <input type="submit" id="Enviar">
+        </form>
+      </article>
+
+    </section>
+  </footer>
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

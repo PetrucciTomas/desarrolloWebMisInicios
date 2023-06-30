@@ -1,0 +1,358 @@
+.Header {
+    background-color: #fbbc02;
+    border: 3px solid;
+    font-family: 'Kanit', sans-serif;
+    width: 1000px;
+    height: 112px;
+    position: absolute;
+    left: 165px;
+}
+
+.figban {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 112px;
+    left: 168px;
+    width: 1000px;
+
+}
+
+.img1 {
+    height: 10%;
+    width: 100%;
+}
+
+.SEC {
+    display: flex;
+}
+
+.sec1 {
+    box-sizing: border-box;
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+
+.iMg {
+    display: flex;
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    height: 30px;
+    width: 1600px;
+
+}
+
+.sec2 {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.transicion:hover {
+    background-color: #C6E4E2;
+    opacity: calc(50%);
+}
+
+.art1 {
+    text-align: end;
+    box-sizing: border-box;
+    top: 15px;
+    right: 30px;
+    position: absolute;
+    transition: background-color 1s;
+}
+
+.art2 {
+    box-sizing: border-box;
+    position: absolute;
+    top: 75px;
+    left: 10px;
+    transition: background-color 1s;
+}
+
+.art3 {
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    left: 600px;
+    top: 55px;
+    transition: background-color 1s;
+}
+
+.art4 {
+    box-sizing: border-box;
+    text-align: center;
+    position: absolute;
+    right: 650px;
+    top: 75px;
+    transition: background-color 1s;
+}
+
+.Main {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+/* 1ra seccion */
+
+/* Texto: DISFRUTA*/
+.art1-1 {
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    position: absolute;
+    top: 285px;
+    left: 575px;
+
+}
+
+/* Donde estan encerradas las img de DISFRUTA */
+.figure {
+    border: 1px solid black;
+    box-sizing: border-box;
+
+    width: 800px;
+    height: 800px;
+}
+
+.fig1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 150px;
+    top: 480px;
+}
+
+.fig2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 405px;
+    top: 480px;
+}
+
+.fig3 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 665px;
+    top: 480px;
+}
+
+.fig4 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 925px;
+    top: 480px;
+}
+
+/* IMAGENES DE DISFRUTA */
+.img {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+
+}
+
+.img1-1 {
+    width: 190px;
+    height: 190px;
+    box-sizing: border-box;
+}
+
+.img1-2 {
+    width: 190px;
+    height: 190px;
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 5px;
+}
+
+.img1-3 {
+    width: 190px;
+    height: 190px;
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 5px;
+}
+
+.img1-4 {
+    width: 190px;
+    height: 190px;
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 5px;
+}
+
+/* FIN DE IMAGENES DE DISFRUTA*/
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: x-large;
+    position: absolute;
+    top: 180px;
+    left: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    transition: background-color 1s;
+}
+
+.transicion:hover {
+    background-color: #CDDAD9;
+}
+
+.bx-pointer {
+    position: absolute;
+    top: 25px;
+    left: 155px;
+}
+
+/* FIN DE 1RA SECCION */
+
+/* 2da seccion*/
+
+/* TEXTO: PRODUCTOS DESTACADOS */
+.ARTICULOsec2 {
+    font-size: xx-large;
+    position: absolute;
+    top: 730px;
+    left: 550px;
+}
+
+/* BORDES*/
+.FIGURE {
+    border: 1px solid black;
+    height: 1000px;
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+.FIG1 {
+    height: 250px;
+    width: 600px;
+    position: absolute;
+    top: 850px;
+    left: 100px;
+}
+
+.FIG2 {
+    height: 250px;
+    width: 400px;
+    position: absolute;
+    top: 850px;
+    left: 760px;
+}
+
+/*IMAGENES */
+
+.IMG {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+}
+
+.IMG1 {
+    height: 240px;
+    width: 300px;
+    position: absolute;
+    left: 150px;
+}
+
+.IMG2 {
+    height: 240px;
+    width: 350px;
+    position: absolute;
+    left: 25px;
+    top: 5px;
+}
+
+/* TEXTO DE LAS IMAGENES */
+
+.h1 {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    opacity: 100%;
+
+    position: absolute;
+    top: 85px;
+    left: 40px;
+
+    transition: background-color 1s;
+}
+
+.transicion:hover {
+    background-color: #CDDAD9;
+}
+
+.hhh {
+    position: absolute;
+    top: 85px;
+    left: 8px;
+
+}
+
+/* FIN DE SECCION 2*/
+
+.crsl {
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 850px;
+    left: 350px;
+}
+
+.IMGSCRSL {
+    height: 500px;
+    width: 500px;
+}
+
+.BTN {
+    position: absolute;
+    left: 875px;
+    top: 50px;
+}
+
+.SEC3 {
+    display: flex;
+    position: absolute;
+    top: 300px;
+}
+
+.footer {
+    display: flex;
+    position: absolute;
+    top: 2000px;
+}
+
+
+.ArT1 {
+    position: absolute;
+    top: 1800px;
+    left: 20px;
+}
+
+.ArT2 {
+
+    position: absolute;
+    top: 1800px;
+    left: 350px;
+}
+
+.ArT3 {
+    position: absolute;
+    top: 1800px;
+    left: 800px;
+}
